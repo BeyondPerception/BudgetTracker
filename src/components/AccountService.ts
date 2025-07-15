@@ -9,13 +9,14 @@ export interface Transaction {
     payee?: string;
     memo?: string;
     transacted_at?: number;
+    pending?: boolean;
 }
 
 export interface Account {
     id: string;
     name: string;
     org?: { name?: string; domain?: string };
-    balance?: string;
+    balance: string;
     "available-balance"?: string;
     available_balance: number;
     is_credit_card: boolean;

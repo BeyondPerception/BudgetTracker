@@ -31,7 +31,7 @@ export function AccountCard({
           $
           {balance}
         </p>
-        {type === 'credit' && <p className="text-xs text-gray-500 mt-1">Available Credit</p>}
+        {type === 'credit' && <p className="text-xs text-gray-500 mt-1">Balance</p>}
       </div>
     </div>
   </div>;
